@@ -1,0 +1,35 @@
+.container {
+    background-color: black;
+    margin-top: 100px;
+    width: 150px;
+    height: 350px;
+    border-radius: 20px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.circulo {
+    margin-top: 5px;
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+ 
+}
+.colores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+}
+.white-glow{
+    -webkit-box-shadow:0px 0px 146px 74px rgba(235,230,230,1);
+    -moz-box-shadow: 0px 0px 146px 74px rgba(235,230,230,1);
+    box-shadow: 0px 0px 146px 74px rgba(235,230,230,1);}
